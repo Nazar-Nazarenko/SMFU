@@ -14,3 +14,11 @@ function openAction() {
     res.style.display = 'none';
     act.style.display = 'block';
 }
+
+function closeReserve() {
+    res.style.display = 'none';
+}
+
+function closeAction() {
+    act.style.display = 'none';
+}
