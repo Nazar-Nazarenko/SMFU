@@ -4,6 +4,12 @@
     justify-content: center;
     position: relative;
 }
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .home-screen {
     width: 390px;
     height: 800px;
