@@ -10,8 +10,25 @@
 <body>
 <div class="container">
     <img class="home-screen" src="assets/IMG_8879.jpg" alt="image">
-    <button class="reserve" onclick="openReserve()"></button>
-    <button class="action" onclick="openAction()"></button>
+    <button class="reserve-btn" onclick="openReserve()"></button>
+    <button class="action-btn" onclick="openAction()"></button>
+    <div class="reserve-main">
+        <div class="main-card">
+            <div class="main-block">
+                <img class="home-screen" src="assets/IMG_8891.jpg" alt="image">
+                <button class="open-qr-btn" onclick="openQrCode()"></button>
+                <button class="open-all-info" onclick="openAllReserveInfoMenu()"></button>
+                <img class="menu-select" src="assets/IMG_8890.jpg" alt="image">
+                <button class="to-all-details-btn" onclick="openAllReserveInfo()"></button>
+            </div>
+            <div class="qr-block">
+                <img class="home-screen qr-code" src="assets/IMG_8892.jpg" alt="image">
+                <button class="close-qr-btn" onclick="closeQrCode()"></button>
+            </div>
+
+        </div>
+        <button class="home" onclick="closeReserveMain()"></button>
+    </div>
 
     <div class="reserve-container">
         <div class="top">
