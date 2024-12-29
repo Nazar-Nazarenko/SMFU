@@ -7,11 +7,13 @@
 .home-screen {
     width: 390px;
     height: 800px;
+    margin: 0 auto;
 }
 
 .data {
     width: 390px;
     height: 644px;
+    margin: 0 auto;
 }
 
 .reserve {
