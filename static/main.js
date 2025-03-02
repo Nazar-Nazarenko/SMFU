@@ -2,10 +2,14 @@ const res = document.querySelector('.reserve-container')
 const reserveMain = document.querySelector('.reserve-main');
 const reserveMainBlock = document.querySelector('.main-block');
 const menuSelect = document.querySelector('.menu-select');
+const menuSelectBackground = document.querySelector('.menu-select-background');
 const homeScreen = document.querySelector('.home-screen');
 const act = document.querySelector('.action-container');
 const qrCode = document.querySelector('.qr-block');
 const toAllDetailsBtn = document.querySelector('.to-all-details-btn');
+const updateDocumentBtn = document.querySelector('.update-document');
+const gotItBtn = document.querySelector('.got-it');
+const updatedDocument = document.querySelector('.updated-document');
 let currentDate = prepareDate();
 let currentDate1 = prepareDate();
 let currentDate2 = prepareDate();
@@ -37,6 +41,7 @@ function closeReserve() {
         reserveMain.style.display = 'block';
         homeScreen.style.display = 'none';
         menuSelect.style.display = 'none';
+        menuSelectBackground.style.display = 'none';
     }
 }
 
@@ -53,9 +58,24 @@ function openAllReserveInfo() {
     reserveMainBlock.style.display = 'none';
     res.style.display = 'block';
 }
+
+function updateDocument() {
+    menuSelect.style.display = 'none';
+    updatedDocument.style.display = 'block';
+    gotItBtn.style.display = 'block';
+}
+
+function gotIt() {
+    updatedDocument.style.display = 'none';
+    gotItBtn.style.display = 'none';
+    menuSelectBackground.style.display = 'none';
+}
+
 function openAllReserveInfoMenu() {
     menuSelect.style.display = 'block';
+    menuSelectBackground.style.display = 'block';
     toAllDetailsBtn.style.display = 'block';
+    updateDocumentBtn.style.display = 'block';
 }
 
 function openQrCode() {
@@ -63,6 +83,7 @@ function openQrCode() {
     reserveMainBlock.style.display = 'none';
     if (menuSelect.style.display === 'block') {
         menuSelect.style.display = 'none';
+        menuSelectBackground.style.display = 'none';
         qrCode.style.display = 'none';
         reserveMainBlock.style.display = 'block';
     }
@@ -74,5 +95,7 @@ function closeQrCode() {
 }
 
 function prepareDate() {
-    return new Date().toLocaleDateString()
+    let today = new Date();
+    today.setDate(today.getDate() - 1);
+    return today.toLocaleDateString()
 }
