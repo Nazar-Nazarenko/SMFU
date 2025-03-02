@@ -6,6 +6,16 @@ const homeScreen = document.querySelector('.home-screen');
 const act = document.querySelector('.action-container');
 const qrCode = document.querySelector('.qr-block');
 const toAllDetailsBtn = document.querySelector('.to-all-details-btn');
+let currentDate = prepareDate();
+let currentDate1 = prepareDate();
+let currentDate2 = prepareDate();
+let currentDate3 = prepareDate();
+let currentDateExpanded = prepareDate();
+document.querySelector('.current-date').innerHTML = currentDate;
+document.querySelector('.current-date-1').innerHTML = currentDate1;
+document.querySelector('.current-date-2').innerHTML = currentDate2;
+document.querySelector('.current-date-3').innerHTML = currentDate3;
+document.querySelector('.date-expanded').innerHTML = currentDateExpanded;
 
 function openReserve() {
     reserveMain.style.display = 'block';
@@ -61,4 +71,8 @@ function openQrCode() {
 function closeQrCode() {
     qrCode.style.display = 'none';
     reserveMainBlock.style.display = 'block';
+}
+
+function prepareDate() {
+    return new Date().toLocaleDateString()
 }
