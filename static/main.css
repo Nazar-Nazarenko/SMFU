@@ -227,7 +227,7 @@ button:focus {
 }
 .menu-select-background {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.4);
     display: none;
@@ -308,12 +308,15 @@ button:focus {
 
 @media screen and (min-width: 392px) {
     .home-screen {
-        width: 420px;
+        width: 392px;
         height: 840px;
     }
     .data {
         width: 410px;
         height: 644px;
+    }
+    .running-line {
+        bottom: 270px;
     }
 
 }
