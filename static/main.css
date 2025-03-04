@@ -308,12 +308,12 @@ button:focus {
 
 @media screen and (min-width: 392px) {
     .home-screen {
-        width: 425px;
-        height: 745px;
+        width: 394px;
+        height: 795px;
     }
     .data {
-        width: 425px;
-        height: 624px;
+        width: 410px;
+        height: 644px;
     }
     .running-line {
         bottom: 254px;
