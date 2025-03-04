@@ -306,17 +306,24 @@ button:focus {
     display: none;
 }
 
+.wrap-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 @media screen and (min-width: 392px) {
     .home-screen {
-        width: 392px;
-        height: 840px;
+        width: 400px;
+        height: 820px;
     }
     .data {
-        width: 410px;
+        width: 400px;
         height: 644px;
     }
     .running-line {
-        bottom: 270px;
+        bottom: 259px;
     }
 
 }
