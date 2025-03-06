@@ -326,10 +326,16 @@ button:focus {
     }
     .data {
         width: 100vw;
-        object-fit: cover;
+        object-fit: contain;
     }
     .running-line {
-        bottom: 268px;
+        bottom: 280px;
+    }
+    .last-updated {
+        top: 128px;
+    }
+    .bottom {
+        margin-top: -33px;
     }
     .menu-select {
         left: 29px;
