@@ -359,6 +359,8 @@ button:focus {
 
 .qr-block-dia {
     height: 100vh;
+    width: 100%;
+    display: none;
 }
 
 .dia-main {
