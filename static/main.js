@@ -1,11 +1,15 @@
 const res = document.querySelector('.reserve-container')
 const reserveMain = document.querySelector('.reserve-main');
+const runningLineDia = document.querySelector('.running-line-dia');
+const diaMain = document.querySelector('.dia-main');
+const diaMainPhoto = document.querySelector('.dia-main-photo');
 const reserveMainBlock = document.querySelector('.main-block');
 const menuSelect = document.querySelector('.menu-select');
 const menuSelectBackground = document.querySelector('.menu-select-background');
 const homeScreen = document.querySelector('.home-screen');
 const act = document.querySelector('.action-container');
 const qrCode = document.querySelector('.qr-block');
+const qrCodeDia = document.querySelector('.qr-block-dia');
 const toAllDetailsBtn = document.querySelector('.to-all-details-btn');
 const updateDocumentBtn = document.querySelector('.update-document');
 const gotItBtn = document.querySelector('.got-it');
@@ -89,9 +93,23 @@ function openQrCode() {
     }
 }
 
+function openDiaQrCode() {
+    qrCodeDia.style.display = 'block';
+    diaMain.style.display = 'none';
+    diaMainPhoto.style.display = 'none';
+    runningLineDia.style.visibility = 'hidden';
+}
+
 function closeQrCode() {
     qrCode.style.display = 'none';
     reserveMainBlock.style.display = 'block';
+}
+
+function closeQrCodeDia() {
+    qrCodeDia.style.display = 'none';
+    diaMain.style.display = 'block';
+    diaMainPhoto.style.display = 'block';
+    runningLineDia.style.visibility = 'visible';
 }
 
 function prepareDate() {
