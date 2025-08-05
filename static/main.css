@@ -88,7 +88,8 @@ button:focus {
 
 .running-line-dia {
     position: absolute;
-    bottom: 317px;
+    bottom: 297px;
+    font-weight: 500;
     width: 85%;
     margin-left: 29px;
     height: 27px;
@@ -375,7 +376,7 @@ button:focus {
     width: 146px;
     height: 189px;
     border-radius: 10px;
-    top: 229px;
+    top: 214px;
     left: 43px;
 }
 
