@@ -88,7 +88,7 @@ button:focus {
 
 .running-line-dia {
     position: absolute;
-    bottom: 297px;
+    bottom: 302px;
     font-weight: 500;
     width: 85%;
     margin-left: 29px;
@@ -281,10 +281,10 @@ button:focus {
 .open-qr-dia-btn {
     position: absolute;
     z-index: 2;
-    width: 137px;
+    width: 174px;
     height: 270px;
     bottom: 247px;
-    left: 205px;
+    left: 171px;
 }
 
 .close-qr-btn {
@@ -374,9 +374,9 @@ button:focus {
     position: absolute;
     z-index: 5;
     width: 146px;
-    height: 189px;
+    height: 196px;
     border-radius: 10px;
-    top: 214px;
+    top: 206px;
     left: 43px;
 }
 

@@ -3,6 +3,8 @@ const reserveMain = document.querySelector('.reserve-main');
 const runningLineDia = document.querySelector('.running-line-dia');
 const diaMain = document.querySelector('.dia-main');
 const diaMainPhoto = document.querySelector('.dia-main-photo');
+const diaOpenQrDiaBtn = document.querySelector('.open-qr-dia-btn');
+const diaCloseQrDiaBtn = document.querySelector('.close-qr-btn');
 const reserveMainBlock = document.querySelector('.main-block');
 const menuSelect = document.querySelector('.menu-select');
 const menuSelectBackground = document.querySelector('.menu-select-background');
@@ -96,6 +98,8 @@ function openQrCode() {
 function openDiaQrCode() {
     qrCodeDia.style.display = 'block';
     diaMain.style.display = 'none';
+    diaOpenQrDiaBtn.style.display = 'none';
+    diaCloseQrDiaBtn.style.display = 'block';
     diaMainPhoto.style.display = 'none';
     runningLineDia.style.visibility = 'hidden';
 }
@@ -110,6 +114,8 @@ function closeQrCodeDia() {
     diaMain.style.display = 'block';
     diaMainPhoto.style.display = 'block';
     runningLineDia.style.visibility = 'visible';
+    diaOpenQrDiaBtn.style.display = 'block';
+    diaCloseQrDiaBtn.style.display = 'none';
 }
 
 function prepareDate() {
