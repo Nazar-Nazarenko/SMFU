@@ -101,7 +101,7 @@ button:focus {
     color: black;
     flex-wrap: nowrap;
     white-space: nowrap;
-    word-spacing: -3px;
+    word-spacing: -4px;
     overflow: hidden;
 }
 
@@ -376,7 +376,7 @@ button:focus {
     width: 146px;
     height: 193px;
     border-radius: 10px;
-    top: 196px;
+    top: 194px;
     left: 43px;
 }
 
