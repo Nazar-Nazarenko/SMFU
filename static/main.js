@@ -1,6 +1,8 @@
 const res = document.querySelector('.reserve-container')
 const reserveMain = document.querySelector('.reserve-main');
 const runningLineDia = document.querySelector('.running-line-dia');
+const runningLineDiaDrive = document.querySelector('.running-line-dia-drive');
+const openDrivingLicenceBtn = document.querySelector('.open-driving-licence');
 const diaMain = document.querySelector('.dia-main');
 const diaMainPhoto = document.querySelector('.dia-main-photo');
 const diaOpenQrDiaBtn = document.querySelector('.open-qr-dia-btn');
@@ -12,6 +14,7 @@ const homeScreen = document.querySelector('.home-screen');
 const act = document.querySelector('.action-container');
 const qrCode = document.querySelector('.qr-block');
 const qrCodeDia = document.querySelector('.qr-block-dia');
+const drivingLicence = document.querySelector('.driving-licence');
 const toAllDetailsBtn = document.querySelector('.to-all-details-btn');
 const updateDocumentBtn = document.querySelector('.update-document');
 const gotItBtn = document.querySelector('.got-it');
@@ -36,6 +39,7 @@ function openReserve() {
 function openAction() {
     reserveMain.style.display = 'none';
     act.style.display = 'block';
+    openDrivingLicenceBtn.style.display = 'block';
 }
 
 function closeReserve() {
@@ -97,11 +101,30 @@ function openQrCode() {
 
 function openDiaQrCode() {
     qrCodeDia.style.display = 'block';
+    drivingLicence.style.display = 'none';
     diaMain.style.display = 'none';
     diaOpenQrDiaBtn.style.display = 'none';
     diaCloseQrDiaBtn.style.display = 'block';
     diaMainPhoto.style.display = 'none';
     runningLineDia.style.visibility = 'hidden';
+}
+
+function openDrivingLicence() {
+    if (drivingLicence.style.display === 'none') {
+        drivingLicence.style.display = 'block';
+        diaMain.style.display = 'none';
+        diaOpenQrDiaBtn.style.display = 'none';
+        diaCloseQrDiaBtn.style.display = 'block';
+        diaMainPhoto.style.display = 'none';
+        runningLineDia.style.visibility = 'hidden';
+    } else {
+        drivingLicence.style.display = 'none';
+        diaMain.style.display = 'block';
+        diaOpenQrDiaBtn.style.display = 'block';
+        diaCloseQrDiaBtn.style.display = 'none';
+        diaMainPhoto.style.display = 'block';
+        runningLineDia.style.visibility = 'visible  ';
+    }
 }
 
 function closeQrCode() {
