@@ -92,13 +92,13 @@ button:focus {
     font-weight: 500;
     width: 85%;
     margin-left: 29px;
-    height: 27px;
+    height: 28px;
     font-size: 12px;
     display: flex;
     background: linear-gradient(
             90deg,
             #8ee9a5 10%,
-            #7be0bd 40%,
+            #7be0bd 70%,
             #6ee8e6 100%
     );
     align-items: center;
@@ -146,6 +146,7 @@ button:focus {
 .running-line-content-dia {
     display: flex;
     align-items: center;
+    letter-spacing: -0.4px;
     white-space: nowrap;
     width: max-content;
     color: rgba(0, 0, 0, 0.95);
