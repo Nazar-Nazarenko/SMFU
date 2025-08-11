@@ -372,7 +372,7 @@ button:focus {
 .dia-main {
     position: relative;
     width: 390px;
-    height: 800px;
+    height: 100vh;
 }
 
 .dia-main-photo {
