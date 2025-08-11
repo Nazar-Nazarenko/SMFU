@@ -180,6 +180,7 @@ button:focus {
     letter-spacing: -0.4px;
     white-space: nowrap;
     width: max-content;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.95);
     animation: marquee 40s linear infinite;
 }
@@ -191,7 +192,8 @@ button:focus {
     white-space: nowrap;
     width: max-content;
     color: rgba(0, 0, 0, 0.95);
-    animation: marquee 30s linear infinite;
+    font-weight: 500;
+    animation: marquee 15s linear infinite;
 }
 
 .line-wrap {
@@ -223,6 +225,18 @@ button:focus {
     border-radius: 50%;
 }
 
+.dot-black {
+    background: black;
+    width: 4px;
+    height: 4px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.dot-black:first-child {
+    margin-left: -6px;
+}
+
 .current-date {
     margin: 0 8px;
 }
@@ -241,6 +255,11 @@ button:focus {
 
 .updated {
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.driving-licence-time, .driving-licence-time-1, .driving-licence-date, .driving-licence-date-1 {
+    margin: 0 6px;
 }
 
 .vertical-divider {
@@ -346,6 +365,10 @@ button:focus {
 
 .driving-licence {
     display: none;
+    animation: changeColors 9s infinite;
+}
+.driving-licence-time {
+    font-size: 12px;
 }
 
 .close-qr-btn {
@@ -426,6 +449,13 @@ button:focus {
 }
 
 .dia-main {
+    position: relative;
+    width: 390px;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+.dia-driving-licence-main {
     position: relative;
     width: 390px;
     height: 100vh;

@@ -24,11 +24,19 @@ let currentDate1 = prepareDate();
 let currentDate2 = prepareDate();
 let currentDate3 = prepareDate();
 let currentDateExpanded = prepareDate();
+let today = getTodayDate();
+let today1 = getTodayDate();
+let timeNow = getTimeNow();
+let timeNow1 = getTimeNow();
 document.querySelector('.current-date').innerHTML = currentDate;
 document.querySelector('.current-date-1').innerHTML = currentDate1;
 document.querySelector('.current-date-2').innerHTML = currentDate2;
 document.querySelector('.current-date-3').innerHTML = currentDate3;
 document.querySelector('.date-expanded').innerHTML = currentDateExpanded;
+document.querySelector('.driving-licence-date').innerHTML = today;
+document.querySelector('.driving-licence-date-1').innerHTML = today1;
+document.querySelector('.driving-licence-time').innerHTML = timeNow;
+document.querySelector('.driving-licence-time-1').innerHTML = timeNow1;
 
 function openReserve() {
     reserveMain.style.display = 'block';
@@ -145,4 +153,15 @@ function prepareDate() {
     let today = new Date();
     today.setDate(today.getDate() - 1);
     return today.toLocaleDateString()
+}
+
+function getTodayDate() {
+    return new Date().toLocaleDateString();
+}
+
+function getTimeNow() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    return `${hours}:${minutes}`;
 }
