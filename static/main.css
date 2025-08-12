@@ -365,6 +365,7 @@ button:focus {
 
 .driving-licence {
     display: none;
+    height: 100vh;
     animation: changeColors 9s infinite;
 }
 .driving-licence-time {
