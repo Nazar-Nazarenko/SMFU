@@ -162,10 +162,9 @@ button:focus {
 
 .time {
     font-size: 16px;
-    font-family: system-ui!important;
-    margin-right: 8px;
+    font-family: system-ui !important;
+    margin: 0 8px;
 }
-
 .running-line-content {
     display: flex;
     align-items: center;
