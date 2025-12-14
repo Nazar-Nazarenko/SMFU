@@ -533,13 +533,19 @@ button:focus {
         object-fit: contain;
     }
     .running-line {
-        bottom: 280px;
+        bottom: 325px;
+    }
+    .running-line-res-main-info {
+        top: 136px;
+    }
+    .reserve-container-header {
+        height: 44px;
     }
     .last-updated {
         top: 128px;
     }
     .bottom {
-        margin-top: -33px;
+        margin-top: -98px;
     }
     .menu-select {
         left: 29px;
