@@ -12,7 +12,7 @@ button:focus {
 
 .home-screen {
     width: 390px;
-    height: 838px;
+    height: 800px;
     margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ button:focus {
 .running-line {
     position: absolute;
     font-size: 12px;
-    bottom: 332px;
+    bottom: 316px;
     width: 89%;
     margin-left: 21px;
     height: 24px;
