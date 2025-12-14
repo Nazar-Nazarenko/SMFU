@@ -12,7 +12,7 @@ button:focus {
 
 .home-screen {
     width: 390px;
-    height: 800px;
+    height: 838px;
     margin: 0 auto;
 }
 
@@ -26,8 +26,15 @@ button:focus {
 
 .data {
     width: 390px;
-    height: 644px;
+    height: 690px;
     margin: 0 auto;
+}
+
+.decor-line {
+    width: 50px;
+    height: 4px;
+    border-radius: 50%;
+    color: gray;
 }
 
 .reserve-btn {
@@ -57,6 +64,19 @@ button:focus {
     right: 0;
 }
 
+.reserve-container-header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 38px;
+    background-color: rgba(225, 223, 201);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .action-container {
     width: 390px;
     height: 100vh;
@@ -76,15 +96,31 @@ button:focus {
 }
 .top {
     width: 390px;
-    margin-top: -20px;
 }
 
 .running-line {
     position: absolute;
-    bottom: 255px;
-    width: 92%;
-    margin-left: 15px;
-    height: 38px;
+    font-size: 12px;
+    bottom: 332px;
+    width: 89%;
+    margin-left: 21px;
+    height: 24px;
+    background: #754e21;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.running-line-res-main-info {
+    position: absolute;
+    font-size: 12px;
+    top: 108px;
+    width: 100%;
+    margin-left: 0;
+    height: 24px;
     background: #754e21;
     display: flex;
     align-items: center;
@@ -140,28 +176,32 @@ button:focus {
     overflow: hidden;
 }
 
-.current-date {
-    font-size: 16px;
+.current-date  {
+    font-size: 12px;
     font-family: system-ui!important;
 }
 
 .current-date-1 {
-    font-size: 16px;
+    font-size: 12px;
     font-family: system-ui!important;
 }
 
 .current-date-2 {
-    font-size: 16px;
+    font-size: 12px;
     font-family: system-ui!important;
 }
 
 .current-date-3 {
-    font-size: 16px;
+    font-size: 12px;
     font-family: system-ui!important;
 }
 
+.current-date-inner, .current-date-1-inner, .current-date-2-inner {
+    margin-left: 6px;
+}
+
 .time {
-    font-size: 16px;
+    font-size: 12px;
     font-family: system-ui !important;
     margin: 0 8px;
 }
@@ -198,7 +238,6 @@ button:focus {
 .line-wrap {
     display: flex;
     align-items: center;
-    padding-right: 15px;
 }
 
 .line-wrap-dia {
@@ -237,19 +276,19 @@ button:focus {
 }
 
 .current-date {
-    margin: 0 8px;
+    margin-left: 8px;
 }
 
 .current-date-1 {
-    margin: 0 8px;
+    margin-left: 8px;
 }
 
 .current-date-2 {
-    margin: 0 8px;
+    margin-left: 8px;
 }
 
 .current-date-3 {
-    margin: 0 8px;
+    margin-left: 8px;
 }
 
 .updated {
@@ -319,7 +358,7 @@ button:focus {
     left: 13px;
     border-radius: 12px;
     width: 362px;
-    height: 291px;
+    height: 390px;
     display: none;
     z-index: 4;
 }
@@ -395,7 +434,7 @@ button:focus {
     z-index: 5;
     width: 200px;
     height: 40px;
-    bottom: 300px;
+    bottom: 386px;
     left: 70px;
     display: none;
 }
@@ -405,7 +444,7 @@ button:focus {
     z-index: 5;
     width: 200px;
     height: 40px;
-    bottom: 193px;
+    bottom: 290px;
     left: 70px;
     display: none;
 }
@@ -433,10 +472,9 @@ button:focus {
     z-index: 2;
     width: 50px;
     height: 50px;
-    bottom: 140px;
-    right: 35px;
+    bottom: 194px;
+    right: 30px;
 }
-
 .qr-block {
     position: relative;
     display: none;
