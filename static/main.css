@@ -550,5 +550,12 @@ button:focus {
     .menu-select {
         left: 29px;
     }
+    .dia-main-photo {
+        top: 206px;
+        height: 197px;
+    }
+    .running-line-dia {
+        bottom: 329px;
+    }
 
 }
