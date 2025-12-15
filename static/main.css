@@ -101,7 +101,7 @@ button:focus {
 .running-line {
     position: absolute;
     font-size: 12px;
-    bottom: 316px;
+    bottom: 321px;
     width: 89%;
     margin-left: 21px;
     height: 24px;
@@ -533,7 +533,7 @@ button:focus {
         object-fit: contain;
     }
     .running-line {
-        bottom: 345px;
+        bottom: 350px;
     }
     .running-line-res-main-info {
         top: 125px;
