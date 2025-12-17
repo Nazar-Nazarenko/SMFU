@@ -1,3 +1,6 @@
+body {
+    font-family: system-ui;
+}
 .container {
     width: 390px;
     display: flex;
@@ -100,7 +103,7 @@ button:focus {
 
 .running-line {
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     bottom: 321px;
     width: 89%;
     margin-left: 21px;
@@ -116,7 +119,7 @@ button:focus {
 
 .running-line-res-main-info {
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     top: 108px;
     width: 100%;
     margin-left: 0;
@@ -130,14 +133,14 @@ button:focus {
     overflow: hidden;
 }
 
-.running-line-dia {
+.running-line-dia, .running-line-dia-licence {
     position: absolute;
     bottom: 310px;
     font-weight: 500;
     width: 85%;
     margin-left: 29px;
     height: 28px;
-    font-size: 12px;
+    font-size: 13px;
     display: flex;
     background: linear-gradient(
             90deg,
@@ -149,50 +152,26 @@ button:focus {
     color: black;
     flex-wrap: nowrap;
     white-space: nowrap;
-    word-spacing: -4px;
-    overflow: hidden;
-}
-
-.running-line-dia-licence {
-    position: absolute;
-    bottom: 310px;
-    font-weight: 500;
-    width: 85%;
-    margin-left: 29px;
-    height: 28px;
-    font-size: 12px;
-    display: flex;
-    background: linear-gradient(
-            90deg,
-            #8ee9a5 10%,
-            #7be0bd 70%,
-            #6ee8e6 100%
-    );
-    align-items: center;
-    color: black;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    word-spacing: -4px;
     overflow: hidden;
 }
 
 .current-date  {
-    font-size: 12px;
+    font-size: 14px;
     font-family: system-ui!important;
 }
 
 .current-date-1 {
-    font-size: 12px;
+    font-size: 14px;
     font-family: system-ui!important;
 }
 
 .current-date-2 {
-    font-size: 12px;
+    font-size: 14px;
     font-family: system-ui!important;
 }
 
 .current-date-3 {
-    font-size: 12px;
+    font-size: 14px;
     font-family: system-ui!important;
 }
 
@@ -201,7 +180,7 @@ button:focus {
 }
 
 .time {
-    font-size: 12px;
+    font-size: 14px;
     font-family: system-ui !important;
     margin: 0 8px;
 }
@@ -407,7 +386,7 @@ button:focus {
     animation: changeColors 9s infinite;
 }
 .driving-licence-time {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .close-qr-btn {
