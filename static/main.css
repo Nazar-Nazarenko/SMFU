@@ -103,7 +103,7 @@ button:focus {
 
 .running-line {
     position: absolute;
-    font-size: 14px;
+    font-size: 15px;
     bottom: 321px;
     width: 89%;
     margin-left: 21px;
@@ -119,7 +119,7 @@ button:focus {
 
 .running-line-res-main-info {
     position: absolute;
-    font-size: 14px;
+    font-size: 15px;
     top: 108px;
     width: 100%;
     margin-left: 0;
@@ -274,6 +274,7 @@ button:focus {
     white-space: nowrap;
     display: flex;
     align-items: center;
+    margin-right: 4px;
 }
 .driving-licence-time, .driving-licence-time-1, .driving-licence-date, .driving-licence-date-1 {
     margin: 0 6px;
