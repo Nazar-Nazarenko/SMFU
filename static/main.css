@@ -83,7 +83,7 @@ button:focus {
 .action-container {
     width: 390px;
     height: 100vh;
-    background: red;
+    background: blue;
     display: none;
     position: absolute;
     top: 0;
@@ -92,9 +92,9 @@ button:focus {
 }
 
 @keyframes changeColors {
-    0%   { background: red; }
-    33%  { background: green; }
-    66%  { background: yellow; }
+    0%   { background: blueviolet; }
+    56%  { background: green; }
+    43%  { background: yellow; }
     100% { background: red; }
 }
 .top {
