@@ -5,6 +5,9 @@ const runningLineDiaDrive = document.querySelector('.running-line-dia-drive');
 const openDrivingLicenceBtn = document.querySelector('.open-driving-licence');
 const diaMain = document.querySelector('.dia-main');
 const diaMainPhoto = document.querySelector('.dia-main-photo');
+const igorPhoto = document.querySelector('.igor');
+const igorBtn = document.querySelector('.igor-btn');
+const num = document.querySelector('.num');
 const diaOpenQrDiaBtn = document.querySelector('.open-qr-dia-btn');
 const diaCloseQrDiaBtn = document.querySelector('.close-qr-btn');
 const reserveMainBlock = document.querySelector('.main-block');
@@ -50,12 +53,14 @@ function openReserve() {
     reserveMain.style.display = 'block';
     act.style.display = 'none';
     homeScreen.style.display = 'none';
+    igorBtn.style.display = 'none';
 }
 
 function openAction() {
     reserveMain.style.display = 'none';
     act.style.display = 'block';
     openDrivingLicenceBtn.style.display = 'block';
+    igorBtn.style.display = 'none';
 }
 
 function closeReserve() {
@@ -73,11 +78,13 @@ function closeReserve() {
 
 function closeAction() {
     act.style.display = 'none';
+    igorBtn.style.display = 'block';
 }
 
 function closeReserveMain() {
     reserveMain.style.display = 'none';
     homeScreen.style.display = 'block';
+    igorBtn.style.display = 'block';
 }
 
 function openAllReserveInfo() {
@@ -172,4 +179,10 @@ function getTimeNow() {
     const hours = String(now.getHours()).padStart(2, '0');
     const minutes = String(now.getMinutes()).padStart(2, '0');
     return `${hours}:${minutes}`;
+}
+
+function setIgorPhoto() {
+    igorPhoto.style.display = 'block';
+    num.innerHTML = '2';
+    igorBtn.style.display = 'none';
 }

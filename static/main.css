@@ -543,3 +543,18 @@ button:focus {
     }
 
 }
+.igor {
+    display: none;
+}
+
+.igor-btn {
+    position: absolute;
+    z-index: 9;
+    width: 25px;
+    height: 25px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    top: 309px;
+    right: 110px;
+}
