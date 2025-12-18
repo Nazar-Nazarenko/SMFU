@@ -490,6 +490,22 @@ button:focus {
     left: 43px;
 }
 
+.igor {
+    display: none;
+}
+
+.igor-btn {
+    position: absolute;
+    z-index: 9;
+    width: 25px;
+    height: 25px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    top: 309px;
+    right: 110px;
+}
+
 @media screen and (min-width: 391px) {
     .container {
         width: 100vw;
@@ -544,23 +560,8 @@ button:focus {
         bottom: 329px;
     }
     .igor-btn {
-        top: 318px !important;
-        right: 112px !important;
+        top: 330px !important;
+        right: 117px !important;
     }
 
-}
-.igor {
-    display: none;
-}
-
-.igor-btn {
-    position: absolute;
-    z-index: 9;
-    width: 25px;
-    height: 25px;
-    background: red;
-    color: white;
-    border-radius: 50%;
-    top: 309px;
-    right: 110px;
 }
