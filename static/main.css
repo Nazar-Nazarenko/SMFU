@@ -535,11 +535,17 @@ button:focus {
     }
     .dia-main-photo {
         top: 206px;
-        height: 197px;
-        width: 152px;
+        height: 200px;
+        width: 155px;
+        border-radius: 18px;
+        left: 43px;
     }
     .running-line-dia {
         bottom: 329px;
+    }
+    .igor-btn {
+        top: 318px !important;
+        right: 112px !important;
     }
 
 }
