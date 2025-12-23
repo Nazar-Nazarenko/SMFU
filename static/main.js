@@ -30,7 +30,6 @@ let currentDateInner = prepareDate();
 let currentDate1Inner = prepareDate();
 let currentDate2Inner = prepareDate();
 let currentDate3Inner = prepareDate();
-let currentDateExpanded = prepareDate();
 let today = getTodayDate();
 let today1 = getTodayDate();
 let timeNow = getTimeNow();
@@ -43,11 +42,11 @@ document.querySelector('.current-date-inner').innerHTML = currentDateInner;
 document.querySelector('.current-date-1-inner').innerHTML = currentDate1Inner;
 document.querySelector('.current-date-2-inner').innerHTML = currentDate2Inner;
 document.querySelector('.current-date-3-inner').innerHTML = currentDate3Inner;
-document.querySelector('.date-expanded').innerHTML = currentDateExpanded;
 document.querySelector('.driving-licence-date').innerHTML = today;
 document.querySelector('.driving-licence-date-1').innerHTML = today1;
 document.querySelector('.driving-licence-time').innerHTML = timeNow;
 document.querySelector('.driving-licence-time-1').innerHTML = timeNow1;
+console.log('timeNow::',timeNow);
 
 function openReserve() {
     reserveMain.style.display = 'block';
@@ -185,4 +184,5 @@ function setIgorPhoto() {
     igorPhoto.style.display = 'block';
     num.innerHTML = '2';
     igorBtn.style.display = 'none';
+    openDrivingLicenceBtn.style.pointerEvents = 'none';
 }

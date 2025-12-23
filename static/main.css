@@ -250,6 +250,10 @@ button:focus {
     border-radius: 50%;
 }
 
+.expired {
+    margin-right: 6px;
+}
+
 .dot-black:first-child {
     margin-left: -6px;
 }
