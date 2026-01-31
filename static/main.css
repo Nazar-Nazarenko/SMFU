@@ -510,7 +510,8 @@ button:focus {
     right: 110px;
 }
 
-@media screen and (min-width: 391px) {
+/*for iPhone 11*/
+@media screen and (min-width: 391px) and (max-width: 392px) {
     .container {
         width: 100vw;
         height: 100%;
@@ -568,4 +569,26 @@ button:focus {
         right: 117px !important;
     }
 
+}
+/*for iPhone 15*/
+@media only screen and (min-width: 392px) and (max-width: 393px) {
+    .home-screen {
+        height: 805px;
+    }
+    .igor-btn {
+        top: 311px !important;
+        right: 111px !important;
+    }
+    .main-card {
+        height: 810px;
+    }
+    .running-line {
+        bottom: 328px;
+    }
+    .running-line-dia, .running-line-dia-licence {
+        bottom: 330px;
+    }
+    .dia-main-photo {
+        top: 220px;
+    }
 }
