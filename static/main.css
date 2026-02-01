@@ -591,4 +591,7 @@ button:focus {
     .dia-main-photo {
         top: 190px;
     }
+    .dia-main {
+        height: 854px;
+    }
 }
