@@ -571,27 +571,27 @@ button:focus {
 
 }
 /*for iPhone 15*/
-@media (min-width: 393px) and (max-width: 393px) {
-    .home-screen {
-        height: 805px;
-    }
-    .igor-btn {
-        top: 311px !important;
-        right: 111px !important;
-    }
-    .main-card {
-        height: 810px;
-    }
-    .running-line {
-        bottom: 328px;
-    }
-    .running-line-dia, .running-line-dia-licence {
-        bottom: 305px;
-    }
-    .dia-main-photo {
-        top: 190px;
-    }
-    .dia-main {
-        height: 800px;
-    }
-}
+/*@media (min-width: 393px) and (max-width: 393px) {*/
+/*    .home-screen {*/
+/*        height: 805px;*/
+/*    }*/
+/*    .igor-btn {*/
+/*        top: 311px !important;*/
+/*        right: 111px !important;*/
+/*    }*/
+/*    .main-card {*/
+/*        height: 810px;*/
+/*    }*/
+/*    .running-line {*/
+/*        bottom: 328px;*/
+/*    }*/
+/*    .running-line-dia, .running-line-dia-licence {*/
+/*        bottom: 305px;*/
+/*    }*/
+/*    .dia-main-photo {*/
+/*        top: 190px;*/
+/*    }*/
+/*    .dia-main {*/
+/*        height: 800px;*/
+/*    }*/
+/*}*/
