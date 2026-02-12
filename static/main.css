@@ -138,8 +138,8 @@ button:focus {
     position: absolute;
     bottom: 305px;
     font-weight: 500;
-    width: 85%;
-    margin-left: 29px;
+    width: 86%;
+    margin-left: 30px;
     height: 28px;
     font-size: 13px;
     display: flex;
@@ -492,7 +492,7 @@ button:focus {
     height: 193px;
     border-radius: 10px;
     top: 192px;
-    left: 43px;
+    left: 45px;
 }
 
 .igor {
