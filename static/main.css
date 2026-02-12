@@ -15,12 +15,13 @@ button:focus {
 
 .home-screen {
     width: 390px;
-    height: 800px;
+    height: 805px;
     margin: 0 auto;
 }
 
 .main-card {
     position: relative;
+    height: 810px
 }
 
 .reserve-main {
@@ -104,7 +105,7 @@ button:focus {
 .running-line {
     position: absolute;
     font-size: 15px;
-    bottom: 321px;
+    bottom: 328px;
     width: 89%;
     margin-left: 21px;
     height: 24px;
@@ -135,7 +136,7 @@ button:focus {
 
 .running-line-dia, .running-line-dia-licence {
     position: absolute;
-    bottom: 310px;
+    bottom: 305px;
     font-weight: 500;
     width: 85%;
     margin-left: 29px;
@@ -473,7 +474,7 @@ button:focus {
 .dia-main {
     position: relative;
     width: 390px;
-    height: 100vh;
+    height: 800px;
     opacity: 0.9;
 }
 
@@ -506,8 +507,8 @@ button:focus {
     background: red;
     color: white;
     border-radius: 50%;
-    top: 309px;
-    right: 110px;
+    top: 311px;
+    right: 111px;
 }
 
 /*for iPhone 11*/
@@ -555,7 +556,7 @@ button:focus {
         left: 29px;
     }
     .dia-main-photo {
-        top: 206px;
+        top: 190px;
         height: 200px;
         width: 155px;
         border-radius: 18px;
@@ -570,28 +571,28 @@ button:focus {
     }
 
 }
-/*for iPhone 15*/
+/*for iPhone 13*/
 /*@media (min-width: 393px) and (max-width: 393px) {*/
 /*    .home-screen {*/
-/*        height: 805px;*/
+/*        height: 800px;*/
 /*    }*/
 /*    .igor-btn {*/
-/*        top: 311px !important;*/
-/*        right: 111px !important;*/
+/*        top: 309px !important;*/
+/*        right: 110px !important;*/
 /*    }*/
 /*    .main-card {*/
-/*        height: 810px;*/
+/*
 /*    }*/
 /*    .running-line {*/
-/*        bottom: 328px;*/
+/*        bottom: 321px;*/
 /*    }*/
 /*    .running-line-dia, .running-line-dia-licence {*/
-/*        bottom: 305px;*/
+/*        bottom: 310px;*/
 /*    }*/
 /*    .dia-main-photo {*/
-/*        top: 190px;*/
+/*        top: 206px;*/
 /*    }*/
 /*    .dia-main {*/
-/*        height: 800px;*/
+/*        height: 100vh;*/
 /*    }*/
 /*}*/
