@@ -389,7 +389,7 @@ button:focus {
 .driving-licence {
     display: none;
     height: 100vh;
-    animation: changeColors 9s infinite;
+    animation: changeColors 10s infinite;
 }
 .driving-licence-time {
     font-size: 14px;
@@ -475,14 +475,14 @@ button:focus {
     position: relative;
     width: 396px;
     height: 800px;
-    opacity: 0.86;
+    opacity: 0.88;
 }
 
 .dia-driving-licence-main {
     position: relative;
     width: 390px;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.88;
 }
 
 .dia-main-photo {
