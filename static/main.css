@@ -512,7 +512,7 @@ button:focus {
 }
 
 /*for iPhone 11*/
-@media (min-width: 394px) and (max-width: 420px) {
+@media (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 2) {
     .container {
         width: 100vw;
         height: 100%;
