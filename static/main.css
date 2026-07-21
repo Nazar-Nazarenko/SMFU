@@ -134,7 +134,7 @@ button:focus {
     overflow: hidden;
 }
 
-.running-line-dia, .running-line-dia-licence {
+.running-line-dia {
     position: absolute;
     bottom: 305px;
     font-weight: 500;
@@ -149,6 +149,23 @@ button:focus {
             #7be0bd 70%,
             #6ee8e6 100%
     );
+    align-items: center;
+    color: black;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.running-line-dia-licence {
+    position: absolute;
+    bottom: 307px;
+    font-weight: 500;
+    width: 85%;
+    margin-left: 29px;
+    height: 28px;
+    font-size: 13px;
+    display: flex;
+    background: linear-gradient(90deg, #8ee9a5 10%, #7be0bd 70%, #6ee8e6 100%);
     align-items: center;
     color: black;
     flex-wrap: nowrap;
@@ -488,7 +505,7 @@ button:focus {
 .dia-main-photo {
     position: absolute;
     z-index: 5;
-    width: 147px;
+    width: 148px;
     height: 193px;
     border-radius: 10px;
     top: 192px;
