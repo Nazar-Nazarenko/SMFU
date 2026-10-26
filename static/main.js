@@ -165,7 +165,7 @@ function closeQrCodeDia() {
 
 function prepareDate() {
     let today = new Date();
-    today.setDate(today.getDate() - 1);
+    today.setDate(today.getDate());
     return today.toLocaleDateString()
 }
 
